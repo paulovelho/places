@@ -1,0 +1,31 @@
+version: '3.7'
+services:
+
+  places_mysql:
+    image: mariadb
+    container_name: "places-mysql"
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ./.docker/mysql:/application
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=places
+      - MYSQL_USER=places
+      - MYSQL_PASSWORD=p14c35
+    ports:
+      - "3306:3306"
+
+  places_phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: places-dev_pma
+    environment:
+      PMA_HOST: places_mysql
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    depends_on:
+      - places_mysql
+    ports:
+      - 8183:80
+
+
