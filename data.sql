@@ -353,8 +353,9 @@ VALUES
 ("2022-10-16 12:30", "2022-10-19 22:00", "Uruguay", "Montevideo", "0"),
 ("2022-10-20 06:40", "2022-10-20 11:54", "Argentina", "Buenos Aires", "0"),
 ("2022-10-20 13:10", "2022-10-23 10:20", "Argentina", "La Plata", "0"),
-("2022-10-23 10:20", NULL, "Argentina", "Buenos Aires", "0"),
+("2022-10-23 10:20", "2022-11-02 12:20", "Argentina", "Buenos Aires", "0"),
 
+("2022-11-02 15:15", NULL, "Brazil", "São Paulo", "0")
 
 
 
