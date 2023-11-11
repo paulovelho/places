@@ -1,5 +1,5 @@
 /* GET UNIQUE countries */
-SELECT country, count(1) FROM `checkin` GROUP BY country LIMIT 100
+SELECT country, count(1) FROM `checkin` GROUP BY country
 
 /* GET UNIQUE cities */
 SELECT country, city, COUNT(arrival) AS visits 
