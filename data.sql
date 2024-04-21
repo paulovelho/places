@@ -468,5 +468,6 @@ VALUES
 ("2024-02-21 12:25", "2024-02-21 15:09", "Switzerland", "Luzern", "0"),
 
 ("2024-02-27 06:20", NULL, "Brazil", "São Paulo", "1"),
+("2024-04-12 15:04", "2024-04-14 10:30", "Brazil", "Santo Antônio do Pinhal", "0"),
 
 
