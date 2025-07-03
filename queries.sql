@@ -18,5 +18,10 @@ FROM `checkin`
 GROUP BY city
 ORDER BY days DESC;
 
+/* GET UNIQUE countries */
+SELECT country, COUNT(arrival) AS visits, SUM(DATEDIFF(departure, arrival)) AS 'days', SUM(lived)
+FROM `checkin`
+GROUP BY country
+ORDER BY days DESC;
 
 
