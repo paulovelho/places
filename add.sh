@@ -87,6 +87,9 @@ else
   lived=${lived:-0}
   [[ "$lived" == 0 || "$lived" == 1 ]] || { echo "lived must be 0 or 1"; exit 1; }
   [[ -n "$country" && -n "$city" ]] || { echo "country and city required"; exit 1; }
+  if [[ -n "$departure" && "$departure" < "$arrival" ]]; then
+    echo "departure ($departure) is earlier than arrival ($arrival)"; exit 1
+  fi
 
   if [[ "$city" == *,* ]]; then csv_city="\"$city\""; else csv_city="$city"; fi
   csv_row="$arrival,$departure,$country,$csv_city,$lived"

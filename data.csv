@@ -511,4 +511,11 @@ arrival,departure,country,city,lived
 2026-02-13 09:45,2026-02-16 11:50,Brazil,Rio de Janeiro,0
 2026-04-02 08:40,2026-04-05 04:50,Brazil,Olimpia,0
 2026-04-09 12:40,2026-04-11 10:40,El Salvador,San Salvador,0
-2026-04-12 13:20,,El Salvador,Santa Ana,0
+2026-04-12 13:20,2026-04-30 03:06,El Salvador,Santa Ana,0
+2026-04-30 08:40,2026-05-02 19:14,Guatemala,Antigua,0
+2026-05-03 07:43,2026-05-04 06:16,Guatemala,Flores,0
+2026-05-04 14:34,2026-05-06 13:23,Belize,Caye Caulker,0
+2026-05-06 18:42,2026-05-07 08:17,Guatemala,Flores,0
+2026-05-07 18:18,2026-05-09 08:21,Guatemala,Lanquin,0
+2026-05-09 18:42,2026-05-10 05:40,Guatemala,Guatemala City,0
+2026-05-10 13:50,,United States,Kissimmee,0
