@@ -36,7 +36,7 @@ arrival,departure,country,city,lived
 - `arrival` / `departure` — datetime strings (`YYYY-MM-DD HH:MM`), occasionally date-only for open-ended stays
 - `country` / `city` — all in English; Brazilian city names kept in Portuguese as they have no standard English equivalent
 - `lived` — `1` if Paulo lived there, `0` for visits
-- Three city values contain commas and are quoted: `"Juquehy, São Paulo"`, `"Lençóis, Bahia"`, `"Extrema, Minas Gerais"`
+- When a city needs a region qualifier it goes in parentheses with the full state name, e.g. `Lençóis (Bahia)`, `Penha (Santa Catarina)` — no city values contain commas, so no CSV quoting is needed
 
 When Paulo asks for statistics, travel summaries, or queries about his travels, read `data.csv` and compute directly. `data.sql` exists as the database-importable version but `data.csv` is the one to use for analysis.
 

@@ -123,9 +123,9 @@ arrival,departure,country,city,lived
 2012-03-24 10:00,2012-03-24 18:10,England,Cambridge,0
 2012-03-31 06:45,2012-04-01 22:30,Scotland,Edinburgh,0
 2012-04-06 11:20,2012-04-09 08:00,Norway,Oslo,0
-2012-04-13 21:00,2012-04-14 12:00,Belgium,Gent,0
+2012-04-13 21:00,2012-04-14 12:00,Belgium,Ghent,0
 2012-04-14 12:00,2012-04-15 14:00,Belgium,Bruges,0
-2012-04-15 15:00,2012-04-15 18:00,Belgium,Gent,0
+2012-04-15 15:00,2012-04-15 18:00,Belgium,Ghent,0
 2012-04-15 18:00,2012-04-16 07:00,Belgium,Brussels,0
 2012-04-26 20:30,2012-04-29 18:00,France,Paris,0
 2012-05-04 21:00,2012-05-07 07:00,Croatia,Zagreb,0
@@ -227,7 +227,7 @@ arrival,departure,country,city,lived
 2016-09-16 20:30,2016-09-18 16:00,Germany,Munich,0
 2016-10-14 08:40,2016-10-16 20:35,France,Paris,0
 2016-10-20 22:00,2016-11-12 22:40,United States,Kissimmee,0
-2016-10-25 22:25,2016-10-26 23:40,United States,Washington,0
+2016-10-25 22:25,2016-10-26 23:40,United States,Washington DC,0
 2016-12-03 19:50,2016-12-05 12:20,Poland,Warsaw,0
 2016-12-05 19:00,2016-12-07 22:00,Poland,Krakow,0
 2016-12-08 06:40,2016-12-11 09:20,Czech Republic,Prague,0
@@ -286,7 +286,7 @@ arrival,departure,country,city,lived
 2018-04-09 10:30,2018-04-09 18:50,Germany,Dusseldorf,0
 2018-04-09 21:00,2018-04-10 12:00,Belgium,Brussels,0
 2018-04-10 14:00,2018-04-12 14:00,Belgium,La Roche,0
-2018-04-12 18:00,2018-04-13 17:40,Belgium,Gent,0
+2018-04-12 18:00,2018-04-13 17:40,Belgium,Ghent,0
 2018-04-13 21:55,2018-04-15 10:00,Netherlands,Amsterdam,0
 2018-04-15 11:40,2018-04-19 13:30,Netherlands,Schiedam,0
 2018-04-17 10:00,2018-04-17 17:00,Netherlands,Keukenhof,0
@@ -312,12 +312,12 @@ arrival,departure,country,city,lived
 2019-12-27 20:00,2019-12-29 20:00,Brazil,Paraibuna,0
 2019-12-30 01:00,2020-01-01 17:40,Brazil,Ilhabela,0
 2021-07-04 13:00,2021-07-11 09:40,Brazil,Cunha,0
-2021-09-03 13:00,2021-09-08 11:00,Brazil,"Juquehy, São Paulo",0
+2021-09-03 13:00,2021-09-08 11:00,Brazil,Juquehy (São Paulo),0
 2021-09-21 07:42,2021-09-25 23:10,Brazil,Salvador,0
-2021-09-26 06:50,2021-09-29 09:10,Brazil,"Lençóis, Bahia",0
+2021-09-26 06:50,2021-09-29 09:10,Brazil,Lençóis (Bahia),0
 2021-09-29 12:00,2021-10-02 23:00,Brazil,Morro do Chapéu,0
 2021-10-03 06:00,2021-10-05 21:40,Brazil,Salvador,0
-2021-10-31 09:30,2021-10-31 16:30,Brazil,"Extrema, Minas Gerais",0
+2021-10-31 09:30,2021-10-31 16:30,Brazil,Extrema (Minas Gerais),0
 2022-02-18 22:30,2022-02-21 12:30,Brazil,Ilhabela,0
 2022-04-01 20:00,2022-04-03 12:00,Brazil,Vinhedo,0
 2022-04-12 09:20,2022-04-14 13:00,United States,Kissimmee,0
@@ -457,7 +457,7 @@ arrival,departure,country,city,lived
 2024-09-27 17:30,2024-09-28 16:40,Brazil,Paraibuna,0
 2024-10-18 14:00,2024-10-22 12:15,Brazil,Florianópolis,0
 2024-10-22 14:10,2024-10-22 16:30,Brazil,Balneário Camboriu,0
-2024-10-22 17:40,2024-10-25 11:00,Brazil,Penha (SC),0
+2024-10-22 17:40,2024-10-25 11:00,Brazil,Penha (Santa Catarina),0
 2024-10-25 12:00,2024-10-28 10:50,Brazil,Blumenau,0
 2024-10-28 14:20,2024-10-28 23:30,Brazil,Curitiba,0
 2024-03-13 12:20,2025-03-21 10:30,Brazil,São Paulo,0
